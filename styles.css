@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Menu (Aside) */
+aside {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside nav ul li {
+    margin: 15px 0;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+}
+
+aside nav ul li a:hover {
+    background-color: pink;
+    color: white;
+}
+
+/* Section Utama */
+section {
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 2px solid pink;
+    overflow: auto;
+}
+
+section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
